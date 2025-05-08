@@ -1,0 +1,212 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.header-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    background-color: rgba(245, 222, 179, 0.904);
+    z-index: 2;
+}
+
+.header-container a{
+    margin: 0px 30px;
+    text-decoration: none;
+    font-family: "Shippori Antique B1", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: darkolivegreen;
+    display: inline-block;
+    font-weight: bold;
+    /* transition: 1s; */
+}
+.header-container a:hover{
+    cursor: pointer;
+    text-shadow: 1px 1px 20px rgba(0, 0, 0, 0.89);
+    text-transform: capitalize;
+    /* transform: scale(1.1,1.1); */
+}
+.logo h1{
+    font-family: "Source Code Pro", monospace;
+    font-optical-sizing: auto;
+    font-weight: 100px;
+    font-style: normal;
+    color: darkolivegreen;
+}
+.logo img{
+    width: 35px;
+    position: absolute;
+    top: 28%;
+    left: 6%;
+    background-color: green;
+}
+.main-container{
+    background-image: url(./images/image2.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    border: solid transparent;
+}
+.titre-container{
+    padding: 200px;
+    color: whitesmoke;
+    
+}
+.titre-container h2{
+    text-transform: uppercase;
+    font-size: 30px;
+}
+.titre-container h1{
+    text-transform: uppercase;
+    font-size: 50px;
+    text-shadow: 11px 15px 50px rgb(255, 0, 238);
+}
+.titre-container p{
+    text-transform: uppercase;
+}
+.titre-container button{
+    padding: 14px;
+    border-radius: 18px;
+    border: solid transparent;
+    background-color: rgb(232, 191, 86);
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.titre-container button:hover{
+    cursor: pointer;
+    transform: scale(1.1,1.1);
+}
+.title span{
+    font-size: 35px;
+    margin: 25px;
+    text-transform: capitalize;
+    color: rgb(192, 168, 15);
+    margin-right: 55%;
+}
+.title button{
+    margin: 20px;
+    padding: 14px;
+    border-radius: 18px;
+    border: solid transparent;
+    background-color: rgb(232, 191, 86);
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.cards-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.card{
+    width: 15%;
+    margin: 15px 10px;
+    background-color: rgba(223, 142, 91, 0.443);
+    border-radius: 20px 0px 20px 0px;
+    height: 300px;
+}
+.card img{
+    width: 100%;
+    height: 50%;
+    border-radius: 20px 0px 0px 0px;
+}
+.card h1{
+    text-align: center;
+    font-size: 26px;
+    color: rgb(78, 12, 12);
+    margin-bottom: 0%;
+}
+.card p{
+    text-align: center;
+    margin-top: 1%;
+    font-style: oblique;
+    font-weight: bold;
+}
+.products{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.product{
+    width: 25%;
+    margin: 20px;
+    border: solid transparent;
+    border-radius: 10px;
+    box-shadow: 2px 2px 12px rgba(237, 176, 106, 0.479);
+    position: relative;
+    z-index: 1;
+}
+.product img{
+    width: 100%;
+    height: 300px;
+    border-radius: 10px;
+}
+.fa-tags{
+    position: absolute;
+    top:2%;
+    left: 2%;
+    color: rgb(96, 156, 105);
+    font-size: 20px;
+}
+.fa-heart{
+    position: absolute;
+    top: 2%;
+    right: 3%;
+    font-size: 20px;
+    color: rgb(96, 156, 105);
+}
+.fa-cart-plus{
+    position: absolute;
+    bottom: 0%;
+    right: 0%;
+    background-color: rgb(96, 156, 105);
+    padding: 5%;
+    border-radius: 8px;
+}
+.about-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.about-container img{
+    width: 50%;
+    height: 50%;
+    margin: 50px;
+}
+.about{
+    margin: 55px;
+}
+.about h1{
+    font-size: 35px;
+    text-align: center;
+    color: rgba(177, 61, 22, 0.858);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: capitalize;
+}
+.footer-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgba(252, 184, 106, 0.783);
+}
+.footer-container .logo{
+    margin-left: 25px;
+    font-size: 25px; 
+}
+.reseaux{
+    margin: 50px;
+    font-size: 40px;
+    color: #3b5b2c;
+}
+.reseaux i{
+    margin: 0px 10px;
+    transition: 1s;
+}
+.reseaux i:hover{
+    transform: scale(1.5);
+    cursor: pointer;
+}
